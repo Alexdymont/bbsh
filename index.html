@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+    </head>
+    <body>
+        <header>
+            <nav class=top-menu>
+                <ul class="top-menu.list">
+                    <li class="top-menu.list.element">ИНФОРМАЦИЯ</li> 
+                    <li class="top-menu.list.element">НОВОСТИ</li>
+                    <li class="top-menu.list.element">ПРАЙС-ЛИСТ</li>
+                    <li class="top-menu.list.element">МАГАЗИН</li>
+                    <li class="top-menu.list.element">КОНТАКТЫ</li>
+                    <li class="top-menu.list.element"><img src="img/login.png"></li>
+                    <li class="top-menu.list.element">ВХОД</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img class="logo" src="img/logo.png" alt="barbershop-logo">
+            <section class="advantages">
+                <div class="advantages-element">
+                    <h2 class="advantages.header">БЫСТРО</h2>
+                    <img src="img/Shape.png">
+                    <p class="advantages.info">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                </div>
+                <div class="advantages-element">
+                    <h2 class="advantages.header">КРУТО</h2>
+                    <img class="shape" src="img/Shape.png">
+                    <p class="advantages.info">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                            МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+                            ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+                </div>
+                <div class="advantages-element">
+                    <h2 class="advantages.header">ДОРОГО</h2>
+                    <img src="img/Shape.png">
+                    <p class="advantages.info">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+                </div>
+            </section>
+            <div class="news-photogallery-wrapper">   
+                <section class="news">
+                    <h2 class="news.header">НОВОСТИ</h2>
+                    <div class="news.element">
+                        <p class="news-info">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                        <p class="news-date">11 января</p>
+                    </div>
+                    <div class="news.element">
+                        <p class="news-info">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                        <p class="news-date">18 января</p>
+                    </div>
+                    <p class="news-button">ВСЕ НОВОСТИ</p>
+                </section>
+                <img class="divider" src="img/divider.jpg">
+                <section class="photogallery">
+                    <h2 class="photogallery.header">ФОТОГАЛЕРЕЯ</h2>
+                    <img src="img/photo.jpg" alt="Фото барбершопа">
+                    <p class="photogallery-button">НАЗАД</p>
+                    <p class="photogallery-button">ВПЕРЕД</p>
+                </section>
+            </div>
+            <div class="contacts-lead-wrapper">
+                <section class="contacts">
+                    <h2 class="contacts.header">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+                    <p class="contacts-info">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                        ТЕЛЕФОН: +7 (495) 666-02-66</p>
+                    <p class="contacts-info">РЕМЯ РАБОТЫ:<br> 
+                            ПН—ПТ: С 10:00 ДО 22:00<br>
+                            СБ—ВС: С 10:00 ДО 19:00
+                    </p>
+                    <p class="contacts-button">КАК ПРОЕХАТЬ</p>
+                    <p class="contacts-button">ОБРАТНАЯ СВЯЗЬ</p>    
+                </section>
+                <img class="divider" src="img/divider.jpg">
+                <form class="lead">
+                    <h2 class="lead-header">ЗАПИСАТЬСЯ</h2>
+                    <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                    <label for="date">ДАТА</label><br>
+                    <input id="date" type="text" name="date" placeholder="08.10.2017">
+                    <label for="time">ВРЕМЯ</label><br>
+                    <input id="time" type="text" name="time" placeholder="10.00">
+                    <label for="name">ВАШЕ ИМЯ</label><br>
+                    <input id="name" type="text" name="name" placeholder="Борода">
+                    <label for="phone">ТЕЛЕФОН</label><br>                
+                    <input id="phone" type="tel" name="phone" placeholder="+7 123 456-78-90">                
+                    <input class="lead-button" type="submit" value="ОТПРАВИТЬ">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <section class="footer-contacts">
+                <p class="footer-contacts.info">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                        КАК НАС НАЙТИ?<br>
+                        ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            </section>
+            <section class="social-networks">
+                <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+                <img src="img/vk-icon.jpg" alt="Вконтакте">
+                <img src="img/facebook-icon.jpg" alt="">
+                <img src="img/instagram-icon.jpg" alt="">
+            </section>
+            <section class="credits">
+                <p class="credits-info">РАЗРАБОТАНО:</p>
+                <p class="credits-button">HTML ACADEMY</p>
+            </section>
+        </footer>
+    </body>
+</html>>
